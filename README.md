@@ -2,6 +2,7 @@
 
 
 1-) Spesific olarak şu tasarım desenini tanımını bilerek kullanmadım, sadece standart bir repository pattern ile geliştirilmiş bir API projesi geliştirdim.
+
 2-) EntityFramework .Net Developer olarak sürekli kullandığımız bir ORM, bunun yanında olmazsa olmaz Linq proje geliştirme esnasında kullandım.
     Kullanım nedenleri veri filtrelemesi ve Veritabanı işlemleri için. 
     DI için ilk defa AutoFac kullandım.
@@ -15,6 +16,7 @@ Projede kullanılan veritabanı;
 USE [master]
 GO
 /****** Object:  Database [ArticleDb]    Script Date: 17.07.2020 00:22:32 ******/
+
 CREATE DATABASE [ArticleDb]
  CONTAINMENT = NONE
  ON  PRIMARY 
@@ -89,7 +91,9 @@ ALTER DATABASE [ArticleDb] SET DELAYED_DURABILITY = DISABLED
 GO
 USE [ArticleDb]
 GO
+
 /****** Object:  Table [dbo].[Articles]    Script Date: 17.07.2020 00:22:32 ******/
+
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -106,7 +110,9 @@ CREATE TABLE [dbo].[Articles](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 
 GO
+
 /****** Object:  Table [dbo].[Users]    Script Date: 17.07.2020 00:22:32 ******/
+
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
